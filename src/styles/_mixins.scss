@@ -1,7 +1,12 @@
 @mixin Headline1 {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 73px;
+    font-size: 20px;
+    line-height: 30px;
+
+    @media (min-width: 768px) {
+        font-size: 56px;
+        line-height: 73px;
+    }
 }
 
 @mixin Headline2 {

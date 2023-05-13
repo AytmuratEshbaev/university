@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?7z584w');
-  src:  url('fonts/icomoon.eot?7z584w#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?7z584w') format('truetype'),
-    url('fonts/icomoon.woff?7z584w') format('woff'),
-    url('fonts/icomoon.svg?7z584w#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?3ht8bv');
+  src:  url('fonts/icomoon.eot?3ht8bv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3ht8bv') format('truetype'),
+    url('fonts/icomoon.woff?3ht8bv') format('woff'),
+    url('fonts/icomoon.svg?3ht8bv#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,12 +25,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-telegram:before {
-  content: "\e902";
-  color: #2ca5e0;
+.icon-education:before {
+  content: "\e90c";
+}
+.icon-grid:before {
+  content: "\e90b";
 }
 .icon-location:before {
   content: "\e901";
+}
+.icon-chevron-down:before {
+  content: "\e90f";
+}
+.icon-menu:before {
+  content: "\e90e";
+}
+.icon-external-link:before {
+  content: "\e90a";
 }
 .icon-access_time:before {
   content: "\e900";
@@ -40,6 +51,19 @@
 }
 .icon-schedule:before {
   content: "\e900";
+}
+.icon-telegram:before {
+  content: "\e902";
+  color: #2ca5e0;
+}
+.icon-bank:before {
+  content: "\e90d";
+}
+.icon-institution:before {
+  content: "\e90d";
+}
+.icon-university:before {
+  content: "\e90d";
 }
 .icon-facebook:before {
   content: "\e909";
@@ -67,6 +91,9 @@
 }
 .icon-phone:before {
   content: "\e942";
+}
+.icon-search:before {
+  content: "\e986";
 }
 .icon-arrow-left:before {
   content: "\ea38";
