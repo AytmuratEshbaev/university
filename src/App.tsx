@@ -7,6 +7,7 @@ import Footer from './layouts/Footer';
 import Header from './layouts/Header';
 import HeroSection from './layouts/HeroSection';
 import MenuBox from './layouts/MenuBox';
+import PostSection from './layouts/PostSection';
 import ServiceSection from './layouts/ServiceSection';
 import Statistics from './layouts/Statistics';
 import Testimonials from './layouts/Testimonials';
@@ -26,6 +27,7 @@ function App() {
       <Statistics />
       <BlogSection />
       <Testimonials />
+      <PostSection />
       <Footer />
     </div>
   );

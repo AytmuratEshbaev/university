@@ -40,11 +40,11 @@
 
 @mixin Tittle1 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
 
     @media (min-width: 768px) {
-        font-size: 24px;
+        font-size: 26px;
         line-height: 31px;
     }
 }

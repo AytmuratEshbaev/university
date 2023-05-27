@@ -1,0 +1,34 @@
+@use 'src/styles/mixins.scss';
+@import 'src/styles/variables.scss';
+
+.post-link {
+    &>* {
+        font-family: 'DM Sans';
+    }
+
+    max-width: 300px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 10px;
+    &__title {
+        @include mixins.FontBody2();
+        font-weight: 500;
+        margin-bottom: 5px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1; //! Qatarlar sanı
+        white-space: pre-wrap; 
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    &__date{
+        @include mixins.FontBody3();
+        text-align: right;
+        padding: 5px 0;
+    }
+}
